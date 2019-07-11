@@ -1,0 +1,12 @@
+#eureka 是springcloud的注册中心，和zk一样
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: false
+#注册中心的名字，服务名称
+spring:
+  application:
+    name: eureka
+server:
+  port: 8761
