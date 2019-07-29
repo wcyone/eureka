@@ -7,6 +7,7 @@ package controller;
  */
 public class UserController {
     public static void main(String[] args){
-       System.out.print("测试分支合并");
+        Integer m = 12;
+       System.out.print(m);
     }
 }
